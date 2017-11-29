@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='Koub.org JDT Helpers Update Site' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1511952010642'/>
+    <property name='p2.timestamp' value='1511953134743'/>
     <property name='publishPackFilesAsSiblings' value='true'/>
   </properties>
   <mappings size='5'>
@@ -55,6 +55,17 @@
         <property name='download.md5' value='1de51a41302a7ab315d3d0f176e9f057'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.koub.jdt.helpers.feature' version='1.0.0.201711291058'>
+      <properties size='7'>
+        <property name='artifact.size' value='820'/>
+        <property name='download.size' value='820'/>
+        <property name='maven-groupId' value='org.koub.jdt.helpers'/>
+        <property name='maven-artifactId' value='org.koub.jdt.helpers.feature'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='c6d19f0ccc72148b6c487c6ec3befe3c'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.swt.gtk.linux.x86_64' version='3.106.1.v20170926-0519'>
       <properties size='3'>
         <property name='download.size' value='2653750'/>
@@ -95,16 +106,6 @@
         <property name='download.size' value='11425'/>
         <property name='artifact.size' value='11425'/>
         <property name='download.md5' value='564dad3e12b6c8461b055e36c0f7324c'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.koub.jdt.helpers' version='1.0.0.201711291040'>
-      <properties size='6'>
-        <property name='artifact.size' value='8758'/>
-        <property name='download.size' value='8758'/>
-        <property name='maven-groupId' value='org.koub.jdt.helpers'/>
-        <property name='maven-artifactId' value='org.koub.jdt.helpers'/>
-        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
-        <property name='download.md5' value='61ea8bb15f0ec25947e229d352c881b2'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro' version='3.5.100.v20170418-0710'>
@@ -240,6 +241,16 @@
         <property name='download.md5' value='20512823ee10f05803346d332dbcdf7e'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.koub.jdt.helpers' version='1.0.0.201711291058'>
+      <properties size='6'>
+        <property name='artifact.size' value='8759'/>
+        <property name='download.size' value='8759'/>
+        <property name='maven-groupId' value='org.koub.jdt.helpers'/>
+        <property name='maven-artifactId' value='org.koub.jdt.helpers'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+        <property name='download.md5' value='ecf0af7388d2e10ac7330806e0be5346'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.xmi' version='2.13.0.v20170609-0707'>
       <properties size='3'>
         <property name='download.size' value='230576'/>
@@ -315,17 +326,6 @@
         <property name='download.size' value='669037'/>
         <property name='artifact.size' value='669037'/>
         <property name='download.md5' value='7365454a68ccde8bdc287c5af6b23f54'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.koub.jdt.helpers.feature' version='1.0.0.201711291040'>
-      <properties size='7'>
-        <property name='artifact.size' value='820'/>
-        <property name='download.size' value='820'/>
-        <property name='maven-groupId' value='org.koub.jdt.helpers'/>
-        <property name='maven-artifactId' value='org.koub.jdt.helpers.feature'/>
-        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
-        <property name='download.contentType' value='application/zip'/>
-        <property name='download.md5' value='8252e16a7048eb0fce39092f1f2a5410'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.7.0.v20170222-1344'>
