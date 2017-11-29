@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JDT Helpers
+Bundle-SymbolicName: org.koub.jdt.helpers;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Koubi
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.jdt,
+ org.eclipse.core.resources,
+ org.eclipse.jdt.core,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.console
