@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<site>
+  <feature id="org.koub.jdt.helpers.feature">
+    <category name="koub_org" />
+  </feature>
+
+  <category-def name="koub_org" label="Koub.org">
+    <description>
+      Koub.org devs
+    </description>
+  </category-def>
+</site>

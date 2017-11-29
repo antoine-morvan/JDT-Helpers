@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>org.koub.jdt.helpers.site</artifactId>
+  <packaging>eclipse-repository</packaging>
+
+  <parent>
+    <groupId>org.koub.jdt.helpers</groupId>
+    <artifactId>org.koub.jdt.helpers.parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>..</relativePath>
+  </parent>
+
+  <build>
+    <plugins>
+      <!-- This plugins builds the update site for the current release and
+        puts all files in ${project.build.directory}/repository -->
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-p2-repository-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <configuration>
+          <includeAllDependencies>true</includeAllDependencies>
+          <compress>false</compress>
+          <repositoryName>Koub.org JDT Helpers Update Site</repositoryName>
+          <skipArchive>true</skipArchive>
+        </configuration>
+      </plugin>
+      
+    </plugins>
+  </build>
+</project>
