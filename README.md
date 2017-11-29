@@ -10,6 +10,8 @@ In Eclipse, go to "Help > Install New Software ...", then add a new update site:
    * name : JDT-Helpers
    * URL : https://antoine-morvan.github.io/JDT-Helpers/update-site/
 
+Then select the feature and follow instructions. Restart Eclipse after installation is done.
+
 ## Looking up for non generated methods
 
 ### Description
